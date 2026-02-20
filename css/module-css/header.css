@@ -103,7 +103,7 @@
 	content: "";
 	left: 0;
 	right: 0;
-	bottom: 33px;
+	bottom: 16px;
 	height: 2px;
 	width: 100%;
 	transform: translateX(0%) scaleX(0.0);
@@ -466,7 +466,7 @@
 /* Icon hover for header-one */
 .main-header.main-header-one .navigation>li:after {
 	position: absolute;
-	top: 31%;
+	top: 20%;
 	left: 50%;
 	height: 10px;
 	width: 18px;

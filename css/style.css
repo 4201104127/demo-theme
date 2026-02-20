@@ -100,6 +100,7 @@ Lizar Business HTML Template
 @import url('slick.css');
 @import url('jquery.bootstrap-touchspin.css');
 @import url('../fonts/reey-font/stylesheet.css');
+@import url('style-rocket.css');
 
 
 
@@ -176,6 +177,7 @@ Lizar Business HTML Template
 }
 
 .button-thm-btn-container {
+    margin: 20px 0 10px 0;
     display: flex;
     gap: 24px;
 }
@@ -184,6 +186,7 @@ Lizar Business HTML Template
     position: relative !important;
     top: 0 !important;
     right: 0 !important;
+    border-radius: 0 !important;
 }
 
 .section-text-mobile {
@@ -201,7 +204,7 @@ Lizar Business HTML Template
 }
 
 .button-thm-btn {
-    background-color: #010f2e !important;
+    background-color: transparent !important;
     border: 1px solid var(--thm-base) !important;
 }
 
@@ -212,10 +215,6 @@ Lizar Business HTML Template
 
 .button-thm-btn:hover {
 	background-color: var(--thm-base) !important;
-}
-
-.button-thm-btn:hover::before {
-    transform: unset !important;
 }
 
 .case-study-link-custom {
@@ -239,4 +238,10 @@ Lizar Business HTML Template
     align-items: center;
     justify-self: center;
     gap: 36px;
+}
+
+.blog-img {
+    img {
+        border: none !important
+    }
 }
