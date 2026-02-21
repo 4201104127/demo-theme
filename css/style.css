@@ -206,6 +206,7 @@ Lizar Business HTML Template
 .button-thm-btn {
     background-color: transparent !important;
     border: 1px solid var(--thm-base) !important;
+    color: var(--thm-base) !important;
 }
 
 .button-thm-btn::before,
@@ -215,6 +216,7 @@ Lizar Business HTML Template
 
 .button-thm-btn:hover {
 	background-color: var(--thm-base) !important;
+    color: #ffffff !important;
 }
 
 .case-study-link-custom {
