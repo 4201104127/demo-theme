@@ -247,3 +247,27 @@ Lizar Business HTML Template
         border: none !important
     }
 }
+
+.testimonial-one-custom__grid {
+    margin: 50px 0;
+    gap: 24px;
+}
+
+.testimonial-one__img-top-custom {
+    padding: 0 !important;
+    margin-top: 30px;
+}
+
+.testimonial-one__img-top-custom ul {
+    margin: 0 !important;
+}
+
+.testimonial-one__img-top-custom ul li {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+.google-icon-svg {
+    filter: grayscale(1);
+}
