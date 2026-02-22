@@ -928,7 +928,9 @@
     margin-top: 10px;
 }
 
-
+.google-full-review:hover {
+    color: var(--thm-base);
+}
 
 .testimonial-item__content .google-full-review {
     justify-content: center;
