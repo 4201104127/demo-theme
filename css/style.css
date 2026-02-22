@@ -375,7 +375,7 @@ Lizar Business HTML Template
     display: flex;
     align-items: center;
     gap: 6px;
-    color: #b0b3bb;
+    color: gray;
     font-size: 14px;
     margin-bottom: 8px;
 }
@@ -383,7 +383,7 @@ Lizar Business HTML Template
 .podcasts .rating .icon {
     width: 16px;
     height: 16px;
-    fill: #ffc107;
+    fill: gray;
 }
 
 /* Hosted */
@@ -405,7 +405,7 @@ Lizar Business HTML Template
 }
 
 .podcasts .hosted-info a {
-    color: #ff6b35;
+    color: var(--thm-base);
     text-decoration: none;
     font-weight: 500;
 }
