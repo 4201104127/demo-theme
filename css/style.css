@@ -99,7 +99,7 @@ Lizar Business HTML Template
 @import url('15-magnific-popup.css');
 @import url('slick.css');
 @import url('jquery.bootstrap-touchspin.css');
-@import url('../fonts/reey-font/stylesheet.css');
+@import url('fonts/reey-font/stylesheet.css');
 @import url('style-rocket.css');
 
 
@@ -136,7 +136,7 @@ Lizar Business HTML Template
     width: 100%;
     height: 100%;
     display: block;
-    background: url(../images/pattern/thm-pattern-2.jpg);
+    background: url(images/pattern/thm-pattern-2.jpg);
     opacity: 0.40;
     background-color: #ffffff;
     background-repeat: no-repeat;
@@ -300,6 +300,36 @@ Lizar Business HTML Template
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+.logos-custom .amazon-logo:hover {
+    content: url('../images/banner/amazon-hover.png');
+    background: var(--thm-white);
+}
+
+.logos-custom .logitech-logo:hover {
+    content: url('../images/banner/logitech-hover.png');
+    background: var(--thm-white);
+}
+
+.logos-custom .sentinel-logo:hover {
+    content: url('../images/banner/sentinel-hover.png');
+    background: var(--thm-white);
+}
+
+.logos-custom .salesforce-logo:hover {
+    content: url('../images/banner/salesforce-hover.png');
+    background: var(--thm-white);
+}
+
+.logos-custom .airbnb-logo:hover {
+    content: url('../images/banner/airbnb-hover.png');
+    background: var(--thm-white);
+}
+
+.logos-custom .uber-logo:hover {
+    content: url('../images/banner/uber-hover.png');
+    background: var(--thm-white);
 }
 
 /* ===== Wrapper (không đụng tới section nữa) ===== */
