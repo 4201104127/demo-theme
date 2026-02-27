@@ -485,3 +485,9 @@ Lizar Business HTML Template
         justify-content: center;
     }
 }
+
+.review-highlight-custom {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}

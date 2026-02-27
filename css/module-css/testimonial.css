@@ -484,6 +484,25 @@
     min-height: 180px;
 }
 
+.testimonial-one__text::before {
+    content: "“";
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: serif;
+    opacity: 0.3;
+}
+
+.testimonial-one__text::after {
+    content: "”";
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: serif;
+    position: relative;
+    line-height: 0;
+    bottom: -40px;
+    opacity: 0.3;
+}
+
 .review-highlight {
     font-weight: 600;
     display: inline;

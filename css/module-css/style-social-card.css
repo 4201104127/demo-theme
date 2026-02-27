@@ -445,6 +445,10 @@
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
 }
 
+.testimonial-card .name {
+    color: var(--text-color, #333);
+}
+
 /* Header */
 .testimonial-link-custom .card-header {
     display: flex;
@@ -531,4 +535,12 @@
 
 .check-review:hover {
     color: #f56915;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.h-5 {
+  height: 1.25rem;
 }
